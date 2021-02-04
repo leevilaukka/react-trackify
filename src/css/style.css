@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: gilroy;
+    src: url("../fonts/gilroy-semibold.ttf");
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: gilroy;
+    src: url("../fonts/gilroy-bold.ttf");
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: roboto;
+    src: url("../fonts/roboto-regular.ttf");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: roboto;
+    src: url("../fonts/roboto-bold.ttf");
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: octicons;
+    src: url("../fonts/octicons.ttf");
+    font-weight: 400;
+}
+
+.icon {
+    font-family: octicons;
+}
+
+body {
+    @apply bg-primary text-white;
+    font-family: gilroy;
+}
+
+button:focus {
+    outline: none;
+}
+
+button:active {
+    outline: none;
+}
